@@ -1,0 +1,67 @@
+@font-face{
+    font-family: Milkshake;
+    src: url(Milkshake.ttf);
+}
+
+body{
+    background-color: grey;
+}
+
+.butt{
+    display: block;
+    align-items: center;
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+main{
+    display: block;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 6em;
+    font-family: Milkshake;
+    font-style: normal;
+    font-variant: normal;
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
+    font-family: serif, "Times New Roman", Times;
+}
+
+nav{
+    text-align: center;
+    width: 500px;
+    font-weight: bold;
+    padding-left: 175px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+#wrapper{
+    min-width: 900px;
+    max-width: 1280px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-top-color: #221811;
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+}
