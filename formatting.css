@@ -22,14 +22,24 @@ body{
 
 .gButton{
     display: block;
-    width: 15%;
+    width: 25%;
     background-color: red;
-    padding-left: 14px 28px;
-    font-size: 20px;
+    padding-left: 28px 56px;
+    font-size: 50px;
     cursor: pointer;
     text-align: center;
     border-radius: 12px;
     border-color: black;
+    margin: auto;
+}
+
+.g2Button{
+    
+}
+
+legend{
+    color: yellow;
+    font-size: 25px;
 }
 
 main{
