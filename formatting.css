@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: grey;
+    background-image: linear-gradient(navy, purple);
 }
 
 .butt{
@@ -12,8 +12,19 @@ body{
     align-items: center;
     width: 50%;
     background-color: red;
-    color: white;
     padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 12px;
+    border-color: red;
+}
+
+.gButton{
+    display: block;
+    width: 15%;
+    background-color: red;
+    padding-left: 14px 28px;
     font-size: 20px;
     cursor: pointer;
     text-align: center;
@@ -32,12 +43,14 @@ h2{
     font-family: Milkshake;
     font-style: normal;
     font-variant: normal;
+    color: white;
 }
 
 p{
     text-align: center;
     font-size: 1.75em;
     font-family: serif, "Times New Roman", Times;
+    color: white;
 }
 
 nav{
@@ -45,11 +58,11 @@ nav{
     width: 500px;
     font-weight: bold;
     padding-left: 175px;
+    margin: auto;
 }
 
 nav ul{
     list-style-type: none;
-    padding-left: 175px;
 }
 
 #wrapper{
@@ -59,6 +72,7 @@ nav ul{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 footer{
     padding-bottom: 10px;
