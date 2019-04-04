@@ -17,7 +17,7 @@ body{
     cursor: pointer;
     text-align: center;
     border-radius: 12px;
-    border-color: red;
+    border-color: black;
 }
 
 .gButton{
@@ -29,7 +29,7 @@ body{
     cursor: pointer;
     text-align: center;
     border-radius: 12px;
-    border-color: red;
+    border-color: black;
 }
 
 main{
