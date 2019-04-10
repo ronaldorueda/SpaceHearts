@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path2</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path2</h2>
+                <form name="Path2">
+                    <fieldset>
+                        <legend></legend>
+                        <p>
+                            <label></label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend></legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1></option>
+                                <option value = 2></option>
+                            </select>
+                            <input type="button" class="g2Button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path2.myList.value;
+                                    if(options==1){
+                                        window.open("Path3.html", "_self")
+                                    }
+                                    else{
+                                        window.open("Oops.html", "_self")
+                                    }
+                            '>
+                        </p>
+                        </fieldset>
+                </form>
+        </main>
+    </div>
+</html>
