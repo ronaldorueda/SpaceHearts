@@ -34,7 +34,16 @@ body{
 }
 
 .g2Button{
-    
+    display: block;
+    width: 15%;
+    background-color: red;
+    padding-left: 10px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 12px;
+    border-color: black;
+    margin: auto;
 }
 
 legend{
