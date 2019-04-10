@@ -8,7 +8,7 @@
     <div id="wrapper">
         <main>
                 <h2>Path1</h2>
-                <form>
+                <form name="Path1">
                     <fieldset>
                         <legend>Goldman Clemons</legend>
                         <p>
@@ -18,21 +18,22 @@
                     <fieldset>
                         <legend>Ursedul</legend>
                         <p>
-                            <select id = "myList">
-                                <option value = "1">"Hello. My name is Urseadul and I’ve come looking for shelter. My car broke down. May I stay for the night?"</option>
-                                <option value = "2">"Greetings Human. I've come to take over your home"                  </option>
+                            <select id = myList>
+                                <option value = 1>"Hello. My name is Urseadul and I’ve come looking for shelter. My car broke down. May I stay for the night?"</option>
+                                <option value = 2>"Greetings Human. I've come to take over your home"                  </option>
                             </select>
-                            <button onclick=value; class="g2Button">SUBMIT</button>
+                            <input type="button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path1.myList.value;
+                                    if(options=1){
+                                        window.open("Path2.html", "_self")
+                                    }
+                                    else{
+                                        window.open("Oops.html", "_self")
+                                    }
+                            '>
                         </p>
-                    </fieldset>
-                    <script type="text/javascript">
-                        if(value==1){
-                            window.location.href = "Path2.html";
-                        }
-                        else{
-                            window.location.href = "Oops.html"); //change the file name to whatever needs to be there
-                        }
-                    </script>
+                        </fieldset>
                 </form>
         </main>
     </div>
