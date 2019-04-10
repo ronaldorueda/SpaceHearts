@@ -5,7 +5,6 @@
     <meta charset = "UTF-8" />
     <link href="formatting.css" rel="stylesheet" type="text/css">
     </head>
-    
     <div id="wrapper">
         <main>
                 <h2>Path1</h2>
@@ -13,13 +12,28 @@
                     <fieldset>
                         <legend>Goldman Clemons</legend>
                         <p>
-                            <label>"Yes? How can I help you?</label>
-                            <select id = "myList">
-                            <option value = "1">"Hello. My name is Urseadul and I’ve come looking for shelter. My car broke down. May I stay for the night?"</option>
-                            <option value = "2">"Greetings Human. I've come to take over your home"                  </option>
-                            </select>
+                            <label>"Yes? How can I help you?"</label>
                         </p>
                     </fieldset>
+                    <fieldset>
+                        <legend>Ursedul</legend>
+                        <p>
+                            <select id = "myList">
+                                <option value = "1">"Hello. My name is Urseadul and I’ve come looking for shelter. My car broke down. May I stay for the night?"</option>
+                                <option value = "2">"Greetings Human. I've come to take over your home"                  </option>
+                            </select>
+                            <button onclick=value; class="g2Button">SUBMIT</button>
+                        </p>
+                    </fieldset>
+                    <script type="text/javascript">
+                        if(value==1){
+                            window.location.href = "Path2.html";
+                        }
+                        else{
+                            window.location.href = "Oops.html"); //change the file name to whatever needs to be there
+                        }
+                    </script>
                 </form>
         </main>
+    </div>
 </html>
