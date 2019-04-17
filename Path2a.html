@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path1</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path2a</h2>
+                <form name="Path2a">
+                    <fieldset>
+                        <legend>Goldman Clemons</legend>
+                        <p>
+                            <label>"What?! Who the heck are you?! Get away from here!"</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ursedul</legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1>*Run towards the town*</option>
+                                <option value = 2>"I am so sorry let's start over."</option>
+                                <option value = 3>*Decide to kill humans and take over home*</option>
+                            </select>
+                            <input type="button" class="g2Button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path2a.myList.value;
+                                    if(options==1){
+                                        window.open("Path2.html", "_self")
+                                    }
+                                    else if(options==2){
+                                        window.open("Path1.html", "_self")
+                                    }
+                                    else{
+                                        window.open("BadEnding.html", "_self")
+                                    }
+                            '>
+                        </p>
+                        </fieldset>
+                </form>
+        </main>
+    </div>
+</html>
