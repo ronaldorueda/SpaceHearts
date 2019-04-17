@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path1</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path1a</h2>
+                <form name="Path1a">
+                    <fieldset>
+                        <legend>Goldman Clemons</legend>
+                        <p>
+                            <label>"Oh I am terribly sorry to hear that. My name is Goldman Clemons. Please come in. Kira! We have a visitor!"</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ursedul</legend>
+                        <p>*Steps Inside*</p>
+                        <p>
+                            Good evening Kira. Sorry for the intrusion. My name is Urseadul and my car broke down. Goldman said I can spend the night here if it's ok with you too.
+                        </p>
+                        </fieldset>
+                    <fieldset>
+                        <legend>Kira</legend>
+                        <p>Of course it's okay! How are you doing Urseadul? Sorry about your car. Say, you have a weird name. Where are you from?</p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ursedul</legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1>"Im actually from an alien planet from Airu"</option>
+                                <option value = 2>"Urseadul is my gamer tag. My name is actually Ursa... It's uhh foreign."</option>
+                            </select>
+                            <input type="button" class="g2Button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path1a.myList.value;
+                                    if(options==1){
+                                        window.open("Path2a.html", "_self")
+                                    }
+                                    else{
+                                        window.open("Path2.html", "_self")
+                                    }
+                            '>
+                        </p>
+                        </fieldset>
+                </form>
+        </main>
+    </div>
+</html>
