@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path2</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path2 University Pt3</h2>
+                <form name="Path2Unib">
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>You know what? Umm I'm going ahead and be bold... Do you want to go on a date with me???</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1>"Uhh sure sounds good to me."</option>
+                            </select>
+                            <input type="button" class="g2Button" value="Continue" onclick=
+                                   '
+                                    var options = document.Path2Unib.myList.value;
+                                    if(options==1){
+                                        window.open("Path3Date.html", "_self")
+                                    }
+                            '>
+                        </p>
+                        </fieldset>
+                </form>
+        </main>
+    </div>
+</html>
