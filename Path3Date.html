@@ -7,30 +7,30 @@
     </head>
     <div id="wrapper">
         <main>
-                <h2>Path2 University</h2>
-                <form name="Path2Uni">
-                    <p>Later in the morning, Goldman decides to drive with you to a university to seek for help for your "car". You came across a weird man that goes straight to you... Goldman continues walking as you talk to him.</p>
+                <h2>Path3Date</h2>
+                <form name="Path3Date">
+                    <p>As Goldman is looking for you, Dillan decides to take you to a local coffee shop.</p>
                     <fieldset>
                         <legend>Dillan Kent</legend>
                         <p>
-                            <label>Hey you! Can I ask you a question? Do you believe in space life?</label>
+                            <label>"Have you ever been here? This is where they sell the best coffee ever! I love it."</label>
                         </p>
                     </fieldset>
                     <fieldset>
                         <legend>Urseadul</legend>
                         <p>
                             <select id = myList>
-                                <option value = 1>"Greetings. I do believe that space life exists but this life exists lightyears away from this planet. What should I know? I could be wrong."</option>
-                                <option value = 2>"I am living proof that aliens exists. Allow me to show you as I take over!!"</option>
+                                <option value = 1>"Of course I've been here. It's the best."</option>
+                                <option value = 2>"What is coffee?"</option>
                             </select>
                             <input type="button" class="g2Button" value="Submit" onclick=
                                    '
-                                    var options = document.Path2Uni.myList.value;
+                                    var options = document.Path3Date.myList.value;
                                     if(options==1){
-                                        window.open("Path2Unia.html", "_self")
+                                        window.open("Path3Coffee.html", "_self")
                                     }
                                     else{
-                                        window.open("Path2DillanS.html", "_self")
+                                        window.open("Path3NoCoffee.html", "_self")
                                     }
                             '>
                         </p>
