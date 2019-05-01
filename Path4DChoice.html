@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path4</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path4 Dillan's Choice</h2>
+                <form name="Path4DChoice">
+                    <p>Dillan starts to smirk, and his eyes brightened up.</p>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"And what if I decide not to go?"</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"I'll go ahead and destroy the planet for you."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>*laughs* "No you wouldn't. I can tell you like me a lot. Tell you what?"</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"I'm listening."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"How about I stay here on Earth, BUT you can come visit me wheneber you can. I have school to finish and I have my family that depends on me. I can't afford to leave, at least not yet."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"Seriously?"</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"Your choice my friend. Do what you please."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1>"I am going within my terms. If you're not coming then screw this planet."</option>
+                                <option value = 2>"Seems like I have no choice but to come visit you when I can."</option>
+                            </select>
+                            <input type="button" class="g2Button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path4DShip.myList.value;
+                                    if(options==1){
+                                        window.open("BadEnding.html", "_self")
+                                    }
+                                    else{
+                                        window.open("HappyEnding.html", "_self")
+                                    }
+                            '>
+                        </p>
+                    </fieldset>
+                </form>
+        </main>
+    </div>
+</html>

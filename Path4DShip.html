@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path4</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path4 Dillan Helps PT2</h2>
+                <form name="Path4DShip">
+                    <p>You started walking Dillan towards the field your ship was destroyed in.</p>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"It's quite interesting to see your vehicle is all the way over here."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"I mean it is my space ship that crashed into the field."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"Ahhhhhh and how did that happen??"</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"A meteor caught me off guard and this planet was the best place to land, especially since there's intelligent life."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"I wouldn't say there's intelligent life here as there are quite a bit of questionable people here."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>*laughs* "That's funny. I like you a lot. You're so different. You're the reason why I wouldn't want to destroy this planet."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"Well that's very flattering."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1>"Listen, very soon I will have my ship repaired, would you like to come with?"</option>
+                                <option value = 2>"Alright, let's get the show on the road. Let's fix my ship."</option>
+                            </select>
+                            <input type="button" class="g2Button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path4DShip.myList.value;
+                                    if(options==1){
+                                        window.open("Path4DChoice.html", "_self")
+                                    }
+                                    else{
+                                        window.open("Path4DFix.html", "_self")
+                                    }
+                            '>
+                        </p>
+                    </fieldset>
+                </form>
+        </main>
+    </div>
+</html>
