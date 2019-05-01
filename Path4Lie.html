@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path4</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path4Lie</h2>
+                <form name="Path4Lie">
+                    <p>You and Dillan walk out the coffee shop and start walking towards the main plaza where you two met.</p>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"Alright so what's your buddy's name? I forgot to ask."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"His name is Goldman."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"Ahh I see. How do you know each other?"</label> 
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"I came across his when my car broke down. We came here to look for someone to fix my vehicle."</label> 
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dillan Kent</legend>
+                        <p>
+                            <label>"Ahh ok I see! Listen I might be able to help. I know a thing or two about cars."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1>"Sure thing. That'll be great."</option>
+                                <option value = 2>"No it's ok I'm sure Goldman will find someone for me."</option>
+                            </select>
+                            <input type="button" class="g2Button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path4Lie.myList.value;
+                                    if(options==1){
+                                        window.open("Path4DHelp.html", "_self")
+                                    }
+                                    else{
+                                        window.open("Path4GHelp.html", "_self")
+                                    }
+                            '>
+                        </p>
+                    </fieldset>
+                </form>
+        </main>
+    </div>
+</html>

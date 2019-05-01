@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path4</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path4 Goldman Helps PT2</h2>
+                <form name="Path4GHelp2">
+                    <p>Goldman looks at you furiously as you walk up to him.</p>
+                    <fieldset>
+                        <legend>Goldman</legend>
+                        <p>
+                            <label>"Where have you been?! I thought you left me behind."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"I'm so sorry I went to get some coffee with this gentleman. He offered to help me with the car."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Goldman</legend>
+                        <p>
+                            <label>"That's nice but you can't just leave me like that! What if I left?! You would of been stuck here with your nice friend!"</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1>"Hey don't you there talk to me like that! I thought you guys were nice, but this just crossed the line!!"</option>
+                                <option value = 2>"Hey, I'm really sorry I thought I would help look for people. Let's just leave don't worry."</option>
+                            </select>
+                            <input type="button" class="g2Button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path4GHelp2.myList.value;
+                                    if(options==1){
+                                        window.open("Path4LinesCrossed.html", "_self")
+                                    }
+                                    else{
+                                        window.open("Path4GHelp3.html", "_self")
+                                    }
+                            '>
+                        </p>
+                    </fieldset>
+                </form>
+        </main>
+    </div>
+</html>
