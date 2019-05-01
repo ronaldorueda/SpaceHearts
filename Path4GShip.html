@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Path4</title>
+    <meta charset = "UTF-8" />
+    <link href="formatting.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id="wrapper">
+        <main>
+                <h2>Path4 Goldman and the Ship</h2>
+                <form name="Path4GShip">
+                    <p>You two are back to Goldman's house, and you lead him to the field you crashed.</p>
+                    <fieldset>
+                        <legend>Goldman</legend>
+                        <p>
+                            <label>"Hey, there's no way your car ended up out here... The road is like half a mile at this point."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"Listen, I know this is sudden, but I do not have a car..."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Goldman</legend>
+                        <p>
+                            <label>"I'm confused... You said your car crashed and needed help."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"Well, in all honesty, it's a ship that needs small repairs. I was hoping just maybe we can come across someone that could possibly do it for me but seems like I have no choice but to do it myself."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Goldman</legend>
+                        <p>
+                            <label>"You're lying there's no way aaaaaaaaaaaaaaaaand oh my god that's your Ursa ship..."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"I told you. You've been so nice to me and I can tell you're understanding, or am I wrong?"</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Goldman</legend>
+                        <p>
+                            <label>"Umm I uhh I don't know this is too much for me..."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Urseadul</legend>
+                        <p>
+                            <label>"Well it's up to you, but I am going to need small help building my ship like getting small electronic components and the strongest metals. Although your materials here on Earth are not as strong from my planet, but it's enough to go to the nearest planet that does to further improve my ship. Listen to me rambling."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Goldman</legend>
+                        <p>
+                            <label>"Ursa I need to go... I can't help you I'm sorry. I can't..."</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ursa</legend>
+                        <p>
+                            <select id = myList>
+                                <option value = 1>"It's either you help me to prove to me you humans are actually good, or I destroy the planet."</option>
+                                <option value = 2>"Alright do what suits you. I have enough petty for you because what you went through for me."</option>
+                            </select>
+                            <input type="button" class="g2Button" value="Submit" onclick=
+                                   '
+                                    var options = document.Path4GShip.myList.value;
+                                    if(options==1){
+                                        window.open("Path4GoldmanShock.html", "_self")
+                                    }
+                                    else{
+                                        window.open("Path4ShipBuilt.html", "_self")
+                                    }
+                            '>
+                        </p>
+                    </fieldset>
+                </form>
+        </main>
+    </div>
+</html>
